@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+}
+#main div{
+
+  height: 100%;
+  width: 50%;
+  max-width: 50%;
+  border-radius: 100%;
+
+}
+#main{
+  position: relative;
+  height: 50%;
+  width: 45%;
+  margin: auto;
+
+}
+
+.heads{
+  margin: auto;
+  display: none;
+  position: relative;
+  background:url("coin2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.tails{
+  margin: auto;
+  position: relative;
+  background:url("coin1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
